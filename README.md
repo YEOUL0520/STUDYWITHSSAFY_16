@@ -38,7 +38,7 @@ SSAFY 16기 알고리즘 스터디
 - description: 문제 주소 (option)
 - 터미널에서 작성법: 
 ```
-git commit -m "[1주차] Hello World / 상 / 1분" -m "https://www.acmicpc.net/problem/2557"
+git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/problem/2557"
 ```
 
 <br />
