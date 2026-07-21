@@ -65,6 +65,6 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
 <br />
 <br />
 
-## 📌 참여자와 진행도도
+## 📌 참여자와 진행도
 
 
