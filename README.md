@@ -42,7 +42,7 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
 ```
 
 <br />
-<br />
+<br /> 
 
 ## 📌 PR 규칙
 - PR 제목: 이름 / 주차
@@ -65,6 +65,6 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
 <br />
 <br />
 
-## 📌 참여자와 진행도
+## 📌 참여자와 진행도도
 
 
