@@ -1,4 +1,7 @@
-package _code_problem.gb;
+/*
+1209. [S/W 문제해결 기본] 2일차 - Sum (D3)
+https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV13_BWKACUCFAYh&categoryId=AV13_BWKACUCFAYh&categoryType=CODE&problemTitle=1209&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
+*/
 
 import java.util.*;
 import java.io.*;

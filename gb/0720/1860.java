@@ -1,4 +1,7 @@
-package _code_problem.gb;
+/*
+1860. 진기의 최고급 붕어빵 (D3)
+https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc&categoryId=AV5LsaaqDzYDFAXc&categoryType=CODE&problemTitle=1860&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
+*/
 
 import java.util.*;
 import java.io.*;
