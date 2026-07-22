@@ -1,0 +1,21 @@
+# Java 컴파일 결과
+*.class
+*.jar
+out/
+build/
+target/
+
+# IDE 및 운영체제 설정
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+
+# 로컬 테스트 파일
+input.txt
+output.txt
+*.log
