@@ -24,9 +24,9 @@ class Solution {
 
       Arrays.sort(arr);
 
-      int answer = N + arr[0] + arr[N - 1];
+      int answer = N + arr[N - 1];
 
-      for (int i = 1; i < N; i++) {
+      for (int i = 0; i < N; i++) {
         answer += arr[i];
       }
 
