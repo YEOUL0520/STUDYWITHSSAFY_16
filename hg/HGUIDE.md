@@ -8,7 +8,7 @@
 
 ```text
 STUDYWITHSSAFY_16/
-└─ wh/
+└─ hg/
     ├─ GUIDE.md
     ├─ input.txt       # 테스트 입력 파일
     ├─ Solution.java   # 자바 풀이
@@ -82,7 +82,7 @@ if __name__ == '__main__':
 
 ```powershell
 # 경로 이동
-Set-Location C:\SSAFY\_self_project\STUDYWITHSSAFY_16\wh
+Set-Location C:\SSAFY\_self_project\STUDYWITHSSAFY_16\hg
 
 # Java 실행
 javac -encoding UTF-8 Solution.java
