@@ -1,6 +1,8 @@
-# `wh` Java & Python Guide ⚡
 
-> SWEA D1부터 차근차근 부수기 위한 초간단 가이드
+# `hg` Java & Python Guide ⚡
+
+> SWEA D1부터 차근차근 부수기 위한 날짜별 학습 가이드  
+> 실습 문제 중 다시 보고 싶은 것들은 `remind` 폴더에 추가
 
 ---
 
@@ -10,9 +12,11 @@
 STUDYWITHSSAFY_16/
 └─ hg/
     ├─ GUIDE.md
-    ├─ input.txt       # 테스트 입력 파일
-    ├─ Solution.java   # 자바 풀이
-    └─ solution.py     # 파이썬 풀이
+    ├─ remind/                 # 다시 보고 싶은 실습/문제 모음
+    └─ MMDD/                   # 날짜별 폴더 (예: 0727)
+        ├─ input.txt           # 테스트 입력 파일
+        ├─ Solution.java       # 자바 풀이
+        └─ solution.py         # 파이썬 풀이
 
 ```
 
@@ -39,7 +43,6 @@ import java.io.BufferedInputStream;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
-        // 빠른 입출력 세팅
         int testCount = 1; // 필요시 입력으로 변경
 
         for (int tc = 1; tc <= testCount; tc++) {
@@ -80,9 +83,11 @@ if __name__ == '__main__':
 
 ## 🚀 4. 로컬 실행 및 컴파일 (PowerShell)
 
+> 작업 중인 날짜 폴더로 이동해서 실행합니다. (예: `0727` 폴더)
+
 ```powershell
-# 경로 이동
-Set-Location C:\SSAFY\_self_project\STUDYWITHSSAFY_16\hg
+# 경로 이동 (예시)
+Set-Location C:\SSAFY\_self_project\STUDYWITHSSAFY_16\hg\0727
 
 # Java 실행
 javac -encoding UTF-8 Solution.java
@@ -100,3 +105,7 @@ Get-Content input.txt | python solution.py
 * [ ] `package` 선언 지웠나요?
 * [ ] 자바 클래스 이름이 `Solution` (또는 `Main`)인가요?
 * [ ] 출력 포맷(`#tc 정답`)을 맞췄나요?
+
+```
+
+```
