@@ -21,7 +21,6 @@ public class Solution {
 			}
 			
 			//dp로 적용
-			int count = 0;
 			int[] dp = new int[N];
 			
 			for(int i = 0; i<N; i++) {
@@ -34,9 +33,7 @@ public class Solution {
 			}
 			int answer = 0;
 			for(int i =0; i<N; i++) {
-				if(dp[i]>=answer) {
-					answer = dp[i];
-				}
+				answer = Math.max(answer, dp[i]);
 			}
 			
 			System.out.println("#"+test_case+" "+answer);
