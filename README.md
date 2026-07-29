@@ -1,7 +1,7 @@
 # STUDYWITHSSAFY_16
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white)
 ![SWEA](https://img.shields.io/badge/SWEA-0055FF?style=flat-square&logo=samsung&logoColor=white)
-SSAFY 16기 알고리즘 스터디
+<br />SSAFY 16기 알고리즘 스터디
 
 ## 📌 스터디 소개
 
@@ -9,7 +9,7 @@ SSAFY 16기 알고리즘 스터디
 * **진행 기간**: 2026.07.22 ~ 
 * **사용 언어**: Java
 
-<br>
+<br />
 
 ## 📌 스터디 규칙
 
