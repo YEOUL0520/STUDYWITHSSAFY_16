@@ -35,24 +35,72 @@
 import java.util.*;
 import java.io.*;
 
-class Solution
-{
-	public static void main(String args[]) throws Exception
-	{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = 10;
-        StringTokenizer st;
+class Solution {
+    public static void main(String[] args) throws Exception {
+        BufferedReader br =
+                new BufferedReader(new InputStreamReader(System.in));
 
-		for(int test_case = 1; test_case <= T; test_case++)
-		{
-            int N, startNum, lastMaxNum = 0;
-            
+        StringBuilder answer = new StringBuilder();
+        final int T = 10;
+
+        for (int testCase = 1; testCase <= T; testCase++) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+
+            int N = Integer.parseInt(st.nextToken());
+            int startNum = Integer.parseInt(st.nextToken());
+
+            List<Integer>[] graph = new ArrayList[101];
+
+            for (int i = 1; i <= 100; i++) {
+                graph[i] = new ArrayList<>();
+            }
+
             st = new StringTokenizer(br.readLine());
-            
-            N = Integer.parseInt(st.nextToken());
-            startNum = Integer.parseInt(st.nextToken());
 
-            Queue<Integer> list = new ArrayDeque<>();
-		}
-	}
+            for (int i = 0; i < N / 2; i++) {
+                int from = Integer.parseInt(st.nextToken());
+                int to = Integer.parseInt(st.nextToken());
+
+                graph[from].add(to);
+            }
+
+            int[] distance = new int[101];
+            Arrays.fill(distance, -1);
+
+            Queue<Integer> queue = new ArrayDeque<>();
+            queue.offer(startNum);
+            distance[startNum] = 0;
+
+            while (!queue.isEmpty()) {
+                int current = queue.poll();
+
+                for (int next : graph[current]) {
+                    if (distance[next] == -1) {
+                        distance[next] = distance[current] + 1;
+                        queue.offer(next);
+                    }
+                }
+            }
+
+            int maxDistance = -1;
+            int lastMaxNum = 0;
+
+            for (int person = 1; person <= 100; person++) {
+                if (distance[person] > maxDistance) {
+                    maxDistance = distance[person];
+                    lastMaxNum = person;
+                } else if (distance[person] == maxDistance) {
+                    lastMaxNum = Math.max(lastMaxNum, person);
+                }
+            }
+
+            answer.append('#')
+                  .append(testCase)
+                  .append(' ')
+                  .append(lastMaxNum)
+                  .append('\n');
+        }
+
+        System.out.print(answer);
+    }
 }
