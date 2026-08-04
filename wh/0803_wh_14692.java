@@ -35,10 +35,15 @@ class Solution
 		for(int test_case = 1; test_case <= T; test_case++)
 		{
             int N = sc.nextInt();
-
+            int count = 0;
             String answer = "";
 
-            if (N % 2 == 0) {
+            while ( N > 1 ) {
+                N--;
+                count++;
+            }
+
+            if (count % 2 == 1) {
                 answer = "Alice";
             } else {
                 answer = "Bob";
