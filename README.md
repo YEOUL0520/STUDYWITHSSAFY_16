@@ -1,17 +1,21 @@
-# STUDYWITHSSAFY_16
-SSAFY 16기 알고리즘 스터디
+# STUDYWITHSSAFY_16 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white) ![SWEA](https://img.shields.io/badge/SWEA-0055FF?style=flat-square&logo=samsung&logoColor=white)
+SSAFY 16기 알고리즘 스터디<br />
+<br />
+<br />
 
 ## 📌 스터디 소개
 
 - 코딩 테스트 준비를 위한 SSAFY 16기 소그룹 알고리즘 스터디입니다.
+* **진행 기간**: 2026.07.22 ~ 
+* **사용 언어**: Java
 
-<br>
+<br />
 
 ## 📌 스터디 규칙
 
 1. 2일에 한번씩 돌아가며 알고리즘 문제 2개씩 선정.
 2. 매일 1개씩 문제를 풀이하고, 풀이 완료 시마다 `Pull Requests` 진행
-3. 문제 풀이 불가시 `Issues`란에 어려움을 겪는 부분을 질의
+3. `Issues`란에 본인이 코드를 푼 방법, 풀면서 어려웠던 부분 등을 작성
 4. `Pull Requests`, `Issues`란을 매일 확인하고 피드백 진행
 
 <br />
@@ -63,4 +67,17 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
 
 ## 📌 참여자와 진행도
 
+
+<br />
+<br />
+
+## 🗓️ 주차별 문제 링크
+
+### 📍 1주차 (2026.07.22 ~2026.07.24)
+| 플랫폼 | 번호 | 문제 이름 | 링크 | 난이도 |
+| :---: | :---: | :--- | :---: | :---: |
+
+### 📍 2주차 (2026.07.27 ~ 2026.07.31)
+| 플랫폼 | 번호 | 문제 이름 | 링크 | 난이도 |
+| :---: | :---: | :--- | :---: | :---: |
 
