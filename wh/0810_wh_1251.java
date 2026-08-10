@@ -56,28 +56,63 @@ A[0, 0  ]   C[400, 0  ]
 */
 import java.util.*;
 
-class Solution
-{
-	public static void main(String args[]) throws Exception
-	{
-		Scanner sc = new Scanner(System.in);
-		int T;
-		T=sc.nextInt();
+class Solution {
+    public static void main(String args[]) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        int T;
+        T = sc.nextInt();
 
-		for(int test_case = 1; test_case <= T; test_case++)
-		{
+        for (int test_case = 1; test_case <= T; test_case++) {
             int N = sc.nextInt(); // 섬 갯수
-            double[] X = new double[N], Y = new double[N];
+            long[] X = new long[N], Y = new long[N];
             for (int i = 0; i < N; i++) {
-                X[i] = sc.nextDouble(); // 섬 X 좌표
+                X[i] = sc.nextLong(); // 섬 X 좌표
             }
             for (int j = 0; j < N; j++) {
-                Y[j] = sc.nextDouble(); // 섬 Y 좌표
+                Y[j] = sc.nextLong(); // 섬 Y 좌표
             }
-            float E = sc.nextFloat(); // 세율
+            double E = sc.nextDouble(); // 세율
 
+            boolean[] visited = new boolean[N];
+            long[] minDistance = new long[N];
 
-		}
+            Arrays.fill(minDistance, Long.MAX_VALUE);
+            minDistance[0] = 0;
+
+            long mstCost = 0;
+
+            for (int count = 0; count < N; count++) {
+                int curr = -1;
+                long min = Long.MAX_VALUE;
+
+                for (int i = 0; i < N; i++) {
+                    if (!visited[i] && minDistance[i] < min) {
+                        min = minDistance[i];
+                        curr = i;
+                    }
+                }
+
+                visited[curr] = true;
+                mstCost += minDistance[curr];
+
+                for (int next = 0; next < N; next++) {
+                    if (visited[next]) {
+                        continue;
+                    }
+
+                    long dx = X[curr] - X[next];
+                    long dy = Y[curr] - Y[next];
+                    long distance = dx * dx + dy * dy;
+
+                    if (distance < minDistance[next]) {
+                        minDistance[next] = distance;
+                    }
+                }
+            }
+
+            double cost = Math.round(E * mstCost);
+            System.out.println("#" + test_case + " " + cost);
+        }
         sc.close();
-	}
+    }
 }
