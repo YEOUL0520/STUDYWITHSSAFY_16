@@ -1,4 +1,4 @@
-# STUDYWITHSSAFY_16 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white) ![SWEA](https://img.shields.io/badge/SWEA-0055FF?style=flat-square&logo=samsung&logoColor=white)
+# STUDYWITHSSAFY_16 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white)![SWEA](https://img.shields.io/badge/SWEA-0055FF?style=flat-square&logo=samsung&logoColor=white)
 SSAFY 16기 알고리즘 스터디<br />
 <br />
 <br />
@@ -66,12 +66,42 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
 <br />
   
 ## 👥 참여자 프로필
-  
-| Profile | GitHub |
-| :---: | :---: |
-| <img src="https://github.com/YEOUL0520.png" width="100" height="100"> | [**YEOUL0520**](https://github.com/YEOUL0520) |
-| <img src="https://github.com/rkqls4764.png" width="100" height="100"> | [**rkqls4764**](https://github.com/rkqls4764) |
-| <img src="https://github.com/WonhyeongChae.png" width="100" height="100"> | [**WonhyeongChae**](https://github.com/WonhyeongChae) |
 
-<br />
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/YEOUL0520">
+        <img src="https://github.com/YEOUL0520.png" width="120px;" alt="YEOUL0520"/>
+        <br />
+        <sub><b>YEOUL0520</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rkqls4764">
+        <img src="https://github.com/rkqls4764.png" width="120px;" alt="rkqls4764"/>
+        <br />
+        <sub><b>rkqls4764</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/WonhyeongChae">
+        <img src="https://github.com/WonhyeongChae.png" width="120px;" alt="WonhyeongChae"/>
+        <br />
+        <sub><b>WonhyeongChae</b></sub>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
