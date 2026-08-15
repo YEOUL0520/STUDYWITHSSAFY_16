@@ -103,5 +103,13 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
       <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/>
     </td>
   </tr>
+
+  <!-- PR_PROGRESS_START -->
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/Unranked-0%20Hits!-555555?style=flat-square" alt="YEOUL0520: Unranked, 0 Hits!" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Unranked-0%20Hits!-555555?style=flat-square" alt="rkqls4764: Unranked, 0 Hits!" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Unranked-0%20Hits!-555555?style=flat-square" alt="WonhyeongChae: Unranked, 0 Hits!" /></td>
+  </tr>
+  <!-- PR_PROGRESS_END -->
 </table>
 
