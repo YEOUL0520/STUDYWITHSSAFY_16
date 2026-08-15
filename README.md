@@ -64,20 +64,14 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
 
 <br />
 <br />
-
-## 📌 참여자와 진행도
-
+  
+## 👥 참여자 프로필
+  
+| Profile | GitHub |
+| :---: | :---: |
+| <img src="https://github.com/YEOUL0520.png" width="100" height="100"> | [**YEOUL0520**](https://github.com/YEOUL0520) |
+| <img src="https://github.com/rkqls4764.png" width="100" height="100"> | [**rkqls4764**](https://github.com/rkqls4764) |
+| <img src="https://github.com/WonhyeongChae.png" width="100" height="100"> | [**WonhyeongChae**](https://github.com/WonhyeongChae) |
 
 <br />
-<br />
-
-## 🗓️ 주차별 문제 링크
-
-### 📍 1주차 (2026.07.22 ~2026.07.24)
-| 플랫폼 | 번호 | 문제 이름 | 링크 | 난이도 |
-| :---: | :---: | :--- | :---: | :---: |
-
-### 📍 2주차 (2026.07.27 ~ 2026.07.31)
-| 플랫폼 | 번호 | 문제 이름 | 링크 | 난이도 |
-| :---: | :---: | :--- | :---: | :---: |
 
