@@ -51,7 +51,9 @@ class Solution
                     }
                 }
             }
+
             int row = 99;
+            
             while (row > 0) {
                 if (col > 0 && ladder[row][col - 1] == 1) {
                     while (col > 0 && ladder[row][col - 1] == 1) {
