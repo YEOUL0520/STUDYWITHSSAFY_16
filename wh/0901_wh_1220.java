@@ -56,7 +56,7 @@ class Solution
                     if(table[i][j] == 1 && selected == 0) {
                         selected = 1;
                     }
-                    else if (table[i][j] == 1 && selected == 2) {
+                    else if (table[i][j] == 2 && selected == 1) {
                         count++;
                         selected = 0;
                     }
