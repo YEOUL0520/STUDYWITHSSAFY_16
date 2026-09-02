@@ -10,7 +10,7 @@
 *  맨 왼쪽 두 칸과 맨 오른쪽 두 칸에 있는 건물은 항상 높이가 0이다. (예시에서 빨간색 땅 부분)
 */
 
-import java.util.Scanner;
+import java.util.*;
 
 class Solution
 {
