@@ -108,7 +108,7 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/Silver-23%20Hits!-435f7a?style=flat-square" alt="YEOUL0520: Silver, 23 Hits!" /></td>
     <td align="center"><img src="https://img.shields.io/badge/Bronze-19%20Hits!-ad5600?style=flat-square" alt="rkqls4764: Bronze, 19 Hits!" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/Bronze-15%20Hits!-ad5600?style=flat-square" alt="WonhyeongChae: Bronze, 15 Hits!" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Bronze-16%20Hits!-ad5600?style=flat-square" alt="WonhyeongChae: Bronze, 16 Hits!" /></td>
   </tr>
   <!-- PR_PROGRESS_END -->
 </table>
