@@ -11,7 +11,7 @@ class Solution
 		for(int test_case = 1; test_case <= T; test_case++)
 		{
 
-            System.out.println("#" + test_case);
+            System.out.println("#" + test_case + " ");
 		}
 	}
 }
