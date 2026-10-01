@@ -32,9 +32,6 @@ class Solution {
         cnt[end]++;
       }
 
-      // 방문 안했고, 선행 작업이 없으면 작업 가능
-      // 이걸 모든 작업 끝날 때까지 반복
-
       int completed = 0;  // 완료한 작업 개수
       ArrayDeque<Integer> queue = new ArrayDeque<>();
       boolean[] visited = new boolean[V + 1];
