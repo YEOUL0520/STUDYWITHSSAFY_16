@@ -1,5 +1,5 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 class Solution
 {
@@ -11,7 +11,7 @@ class Solution
 		for(int test_case = 1; test_case <= T; test_case++)
 		{
 
-            System.out.println("#" + test_case);
+            System.out.println("#" + test_case + " ");
 		}
 	}
 }
