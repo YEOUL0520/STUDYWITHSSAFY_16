@@ -78,7 +78,7 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
     </td>
     <td align="center">
       <a href="https://github.com/rkqls4764">
-        <img src="https://github.com/rkqls4764" width="120px;" alt="rkqls4764"/>
+        <img src="https://github.com/rkqls4764.png" width="120px;" alt="rkqls4764"/>
         <br />
         <sub><b>rkqls4764</b></sub>
       </a>
