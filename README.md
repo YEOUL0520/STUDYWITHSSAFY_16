@@ -77,8 +77,8 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/gabeen0112">
-        <img src="https://github.com/gabeen0112.png" width="120px;" alt="gabeen0112"/>
+      <a href="https://github.com/rkqls4764">
+        <img src="https://github.com/rkqls4764" width="120px;" alt="rkqls4764"/>
         <br />
         <sub><b>gabeen0112</b></sub>
       </a>
@@ -107,7 +107,7 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
   <!-- PR_PROGRESS_START -->
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/Silver-29%20Hits!-435f7a?style=flat-square" alt="YEOUL0520: Silver, 29 Hits!" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/Silver-29%20Hits!-435f7a?style=flat-square" alt="gabeen0112: Silver, 29 Hits!" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Silver-29%20Hits!-435f7a?style=flat-square" alt="rkqls4764: Silver, 29 Hits!" /></td>
     <td align="center"><img src="https://img.shields.io/badge/Bronze-19%20Hits!-ad5600?style=flat-square" alt="WonhyeongChae: Bronze, 19 Hits!" /></td>
   </tr>
   <!-- PR_PROGRESS_END -->
