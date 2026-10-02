@@ -80,7 +80,7 @@ git commit -m "[1주차] Hello World / D3 / 1분" -m "https://www.acmicpc.net/pr
       <a href="https://github.com/rkqls4764">
         <img src="https://github.com/rkqls4764" width="120px;" alt="rkqls4764"/>
         <br />
-        <sub><b>gabeen0112</b></sub>
+        <sub><b>rkqls4764</b></sub>
       </a>
     </td>
     <td align="center">
