@@ -1,66 +1,59 @@
 import java.util.*;
 import java.io.*;
 
-/* Problem 03 : 작업 전환 비용 
-모든 작업을 정확히 한 번씩 수행하면서, 
-연속해서 수행되는 두 작업 사이의 전환 비용의 총합이 가장 작아지도록 작업 순서를 정하려고 한다.
-전환 비용이 주어질 때, 모든 작업을 한 번씩 배치하여 수행했을 때 가능한 최소 전환 비용의 총합을 구하여라.
-*/
-
 public class Solution {
-	static int[][] prize;
-	static boolean[] visited;
-	static int N;
-	static int min;
+	static int max = Integer.MIN_VALUE;
+	static int min = Integer.MAX_VALUE;
 	
-	public static void dfs(int current, int idx, int result) {
+	static int N;
+	static int[] num;
+	static int[] operator; //1: +, 2: -, 3: *, 4: % 
+	
+	public static void dfs(int idx, int result) {
 		if(idx == N) {
+			max = Math.max(max, result);
 			min = Math.min(min, result);
 			return;
 		}
-		
-		for(int i = 0; i<N; i++) {
-			if(!visited[i]) {
-				visited[i] = true;
-				dfs(i ,idx+1, result + prize[current][i]);
-				visited[i] = false;
+		//각 연산자 4개 case에 대해 넣을래 말래
+		for(int i = 0; i<4; i++) {
+			if(operator[i] == 0) continue;
+			
+			operator[i]--;
+			
+			if(i == 0) {
+				dfs(idx+1, result+num[idx]);
+			}else if(i == 1) {
+				dfs(idx+1, result-num[idx]);
+			}else if(i == 2) {
+				dfs(idx+1, result*num[idx]);
+			}else if(i == 3) {
+				dfs(idx+1, result/num[idx]);
 			}
+			
+			operator[i]++;
 		}
-		
 	}
-	
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
+		N = Integer.parseInt(br.readLine());
 		
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int test_case = 1; test_case <= T; test_case++) {
-			N = Integer.parseInt(br.readLine());
-			
-			prize = new int[N][N];
-			
-			for(int i = 0; i<N; i++) {
-				StringTokenizer st = new StringTokenizer(br.readLine());
-				for(int j = 0; j<N; j++) {
-					prize[i][j] = Integer.parseInt(st.nextToken());
-				}
-			}
-			
-			visited = new boolean[N];
-			min = Integer.MAX_VALUE;
-			
-			// 시작 상태도 여러 후보 중 골라야 하는 경우 (0단계를 main에서 선수행)
-			for(int i = 0; i<N; i++) {
-				visited[i] = true;
-				dfs(i, 1, 0);
-				visited[i] = false;
-			}
-			
-			sb.append("#").append(test_case).append(" ").append(min).append("\n");
+		num = new int[N];
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		for(int i = 0; i<N; i++) {
+			num[i] = Integer.parseInt(st.nextToken());
 		}
+		st = new StringTokenizer(br.readLine());
+		operator = new int[4];
+		for(int i = 0; i<4; i++) {
+			operator[i] = Integer.parseInt(st.nextToken());
+		}
+		
+		// 각 연산자로 만들 수 있는 모든 경우 찾기
+		// 해당 경우에서 최댓값 및 최솟값 찾기
+		dfs(1, num[0]);
+		sb.append(max).append("\n").append(min);
 		System.out.println(sb);
 	}
-
 }
