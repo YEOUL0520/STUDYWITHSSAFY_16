@@ -64,7 +64,6 @@ class Solution
 						visited[next] = true;
 						queue.offer(next);
 					}
-					
 				}
 			}	
 
