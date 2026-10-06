@@ -39,9 +39,8 @@ class Solution
             // numbers[0]은 이미 사용했으므로 다음 숫자는 index 1부터
             calculate(numbers[0], 1);
 
-            System.out.println(
-                "#" + test_case + " " + (max - min)
-            );
+            System.out.println(max);
+            System.out.println(min);
         }
     }
 
